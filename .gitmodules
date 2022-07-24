@@ -1,0 +1,15 @@
+[submodule "libraries/gd.h"]
+	path = libraries/gd.h
+	url = https://github.com/HJFod/gd.h.git
+[submodule "libraries/cocos-headers"]
+	path = libraries/cocos-headers
+	url = https://github.com/HJFod/cocos-headers.git
+[submodule "libraries/minhook"]
+	path = libraries/minhook
+	url = https://github.com/TsudaKageyu/minhook.git
+[submodule "libraries/Mega-Hack-Extensions"]
+	path = libraries/Mega-Hack-Extensions
+	url = https://github.com/absoIute/Mega-Hack-Extensions.git
+[submodule "libraries/fmod-headers"]
+	path = libraries/fmod-headers
+	url = https://github.com/oneparsec/fmod-headers

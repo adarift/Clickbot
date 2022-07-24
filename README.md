@@ -1,5 +1,5 @@
 # Clickbot
-Clickbot for MHv7
+Simple clickbot for MHv7
 
 # How to use
 

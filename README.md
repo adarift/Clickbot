@@ -9,8 +9,12 @@ Put DLL in the `extensions` folder, create `clicks` directory in GD folder and u
 
 # TODO
 
-[] Volume setting
+[X] Volume setting
+
 [] Auto-save
+
 [] MHv7 Replay has weird release in the beginning of the level. Fix.
+
 [] White noise
+
 [] Support of P2 clickpack.

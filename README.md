@@ -9,14 +9,12 @@ Put DLL in the `extensions` folder, create `clicks` directory in GD folder and u
 
 # TODO
 
-- [x] Create my first TODO.md  
+- [ ] Volume setting
 
-- [] Volume setting
+- [ ] Auto-save
 
-- [] Auto-save
+- [ ] MHv7 Replay has weird release in the beginning of the level. Fix.
 
-- [] MHv7 Replay has weird release in the beginning of the level. Fix.
+- [ ] White noise
 
-- [] White noise
-
-- [] Support of P2 clickpack.
+- [ ] Support of P2 clickpack.

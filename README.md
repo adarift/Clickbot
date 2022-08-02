@@ -9,11 +9,13 @@ Put DLL in the `extensions` folder, create `clicks` directory in GD folder and u
 
 # TODO
 
-- [ ] Volume setting
+- [x] Volume setting
+
+- [x] Soft clicks support
 
 - [ ] Auto-save
 
-- [ ] MHv7 Replay has weird release in the beginning of the level. Fix.
+- [x] Fix for two releases at the beginning of the level
 
 - [ ] White noise
 

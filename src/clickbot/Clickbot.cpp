@@ -26,11 +26,45 @@ namespace Clickbot
         );
         return out[0];
     }
+    std::string pickRandomSoftClick()
+    {
+        std::vector<std::string> clicks;
+        std::vector<std::string> out;
+        std::string path = "clicks\\softClicks";
+        for (const auto & entry : fs::directory_iterator(path))
+        {
+            clicks.push_back(entry.path().string());
+        }
+        std::sample(
+            clicks.begin(),
+            clicks.end(),
+            std::back_inserter(out),
+            1,
+            std::mt19937{std::random_device{}()}
+        );
+        return out[0];
+    }
     std::string pickRandomRelease()
     {
         std::vector<std::string> releases;
         std::vector<std::string> out;
         std::string path = "clicks\\releases";
+        for (const auto & entry : fs::directory_iterator(path))
+            releases.push_back(entry.path().string());
+        std::sample(
+            releases.begin(),
+            releases.end(),
+            std::back_inserter(out),
+            1,
+            std::mt19937{std::random_device{}()}
+        );
+        return out[0];
+    }
+    std::string pickRandomSoftRelease()
+    {
+        std::vector<std::string> releases;
+        std::vector<std::string> out;
+        std::string path = "clicks\\softReleases";
         for (const auto & entry : fs::directory_iterator(path))
             releases.push_back(entry.path().string());
         std::sample(

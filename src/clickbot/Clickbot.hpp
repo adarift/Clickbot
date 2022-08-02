@@ -8,6 +8,12 @@ namespace Clickbot
     std::string pickRandomClick();
     std::string pickRandomRelease();
 
+    std::string pickRandomSoftClick();
+    std::string pickRandomSoftRelease();
+
+    static inline bool firstClick = false;
+    static inline std::chrono::system_clock::time_point start, now;
+    static inline std::chrono::duration<double> cycleTime;
 
     static inline FMOD::System* system;
     static inline FMOD::Channel* clickChannel;
@@ -15,6 +21,8 @@ namespace Clickbot
     static inline FMOD::Channel* releaseChannel;
     static inline FMOD::Sound* releaseSound;
 
+    static inline FMOD::Channel* noiseChannel;
+    static inline FMOD::Sound* noiseSound;
 }
 
 #endif

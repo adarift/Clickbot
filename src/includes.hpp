@@ -2,6 +2,8 @@
 
 #define __INCLUDES_HPP
 
+//#define CLICKBOT_DEVMODE
+
 #ifdef _MSC_VER
 #pragma warning(disable: 4251) // shut up cocos
 #endif

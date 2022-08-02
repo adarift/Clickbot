@@ -9,6 +9,8 @@ Put DLL in the `extensions` folder, create `clicks` directory in GD folder and u
 
 # TODO
 
+- [x] Create my first TODO.md  
+
 - [] Volume setting
 
 - [] Auto-save

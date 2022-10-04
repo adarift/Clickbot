@@ -3,7 +3,7 @@ Simple clickbot for MHv7
 
 # How to use
 
-Download DLL and zip archive with clicks.
+Download DLL and zip archive with clicks from releases page.
 
 Put DLL in the `extensions` folder, create `clicks` directory in GD folder and unpack zip archive in the `clicks` directory.
 
